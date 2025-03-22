@@ -30,3 +30,7 @@ Filme_copy.append("Aladin")
 Filme_copy.sort()
 
 print(Filme_copy)
+
+#Removendo todos os itens da lista
+Filme_copy.clear()
+print(Filme_copy)
