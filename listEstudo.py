@@ -26,5 +26,7 @@ print(filmeList)
 Filme_copy = filmeList.copy()
 Filme_copy.remove("Batman")
 Filme_copy.append("O poço")
+Filme_copy.append("Aladin")
+Filme_copy.sort()
 
 print(Filme_copy)
