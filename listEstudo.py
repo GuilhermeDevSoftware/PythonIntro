@@ -25,5 +25,6 @@ print(filmeList)
 #Copiando dados da lista para outra lista e removendo
 Filme_copy = filmeList.copy()
 Filme_copy.remove("Batman")
+Filme_copy.append("O poço")
 
 print(Filme_copy)
