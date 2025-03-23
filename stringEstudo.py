@@ -1,9 +1,9 @@
 
 descricao = """
-gosta de filmes de ação
+gosta de, filmes de, ação
 """
 
-nome = "Guilherme"
+nome = "Guilherme Dev"
 
 
 print(descricao)
@@ -24,3 +24,5 @@ print(nome[::-1])
 print(nome.upper())
 print(nome.lower())
 print(nome.find("e")) #Mostra a posição das letras na palavra
+print(nome.replace("Dev", "Software")) #Substitui a palavra
+print(descricao.split(',')) #Quebra em partes o texto
