@@ -32,3 +32,7 @@ pp.pprint(filmesDic)
 #Removendo item
 del filmesDic["Batman"]
 pp.pprint(filmesDic)
+
+#Removendo apenas um item do dicionario aninhado
+filmesDic["Joker"].pop("Nota")
+pp.pprint(filmesDic)
