@@ -21,3 +21,14 @@ filmesDic = {
 #Deixa mais legivel no terminal
 pp = pprint.PrettyPrinter(depth=4)
 pp.pprint(filmesDic)
+
+#Buscando informação
+print(filmesDic["Joker"]["Nota"])
+
+#Adicionando valor
+filmesDic["Interestelar"]["Diretor"] = "Cristopher Nolan"
+pp.pprint(filmesDic)
+
+#Removendo item
+del filmesDic["Batman"]
+pp.pprint(filmesDic)
