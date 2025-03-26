@@ -34,3 +34,6 @@ print(filmeJoker)
 #Removendo valores
 filmeJoker.pop("Diretor")
 print(filmeJoker)
+
+filmeJoker["Diretor"] = "Allan"
+print(filmeJoker)
