@@ -14,7 +14,7 @@ sum(5, 4, 9, 2)
 
 #apresentacao de curso
 def apresentacao_curso(**dicionario_curso):
-    for valor, chave in dicionario_curso.items():
+    for chave, valor in dicionario_curso.items():
         print(f"{valor} - {chave}")
 
 print("Apresentação de curso: ")
