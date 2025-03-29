@@ -29,3 +29,7 @@ print(f"Média de avaliação - {media_notas_filmes('Interestelar')}")
 verifica_filme = lambda nome_filme: nome_filme in lista_de_filmes
 print(verifica_filme('O regresso'))
 print(verifica_filme('Joker'))
+
+#Passando valor com media
+recomendo_filme = lambda nome_filme: f"Recomendo {nome_filme} com média de {media_notas_filmes(nome_filme):.2f}"
+print(f"{recomendo_filme('O regresso')}")
